@@ -1128,8 +1128,10 @@ header {
 .banner-wrapper {
   position: relative;
   width: 100%;
-  height: 365px;
-  background: url(https://ifh.cc/g/A0yQqd.jpg) no-repeat 50% 50% / cover;
+  height: auto;
+  aspect-ratio: 1640/624;
+  background: url("/images/490420492_9450217965013400_1702944965595628391_n.jpg")
+    no-repeat 50% 50% / cover;
 }
 .banner-wrapper figure {
   position: absolute;
